@@ -5,7 +5,7 @@ import mmengine.dist as dist
 import rich.progress as progress
 from rich.live import Live
 
-disable_progress_bar = False
+disable_progress_bar = True
 global_progress = progress.Progress(
     '{task.description}',
     progress.BarColumn(),
